@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align: center ;
+    padding: 20px;
+    color: aliceblue;
+    background-color: #000000;
+    font-size: 13px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+footer span{
+    color: #60836f;
+    font-size: 19px;
+}
+
+button{
+    background-color: #8400ff11;
+    border: 3px solid #ffffff;
+    margin: 5px;
+}
+
+.container{
+    width: 500px;
+    max-width: 600px;
+    min-height: 745px;
+    max-height: 100vh;
+    margin: 0 auto;
+    background-color: #c9f1da;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 4px solid #000000;
+    box-shadow: 9px 5px 5px #60836f;
+
+}
+
+#iniciemos{
+    font-family: 'Press Start 2P', cursive;
+    font-size:30px ;
+
+}
+
+ul{
+    flex-direction:inherit;
+
+}
+
+h1{
+    font-size: 39px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000000 ;
+    font-family: 'Nosifer', cursive;}
+
+h3{
+    font-size: 30px;
+    color: #000000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4{
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+#result{
+    text-align: center;
+}
+
+#result img{
+    width: 55%;
+    position: static center;
+    z-index: auto
+}
+
+#start-text{
+    font-size: 36px;
+    padding: 10%;
+    color: #ffffff;
+    color: #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#group-btn{
+    display: flex;
+    width: 100%;
+}
+
+#group-btn > button > img{
+    width: 100%;
+}
